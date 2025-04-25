@@ -39,7 +39,7 @@ A Java-based Model Context Protocol (MCP) server that integrates with Gmail to e
    cd gmail-mcp-server
    ```
    Alternatively, create a new Maven project and copy the provided files:
-   - `src/main/java/com/example/gmailmcp/GmailMcpServer.java`
+   - `src/main/java/com/swiftbeard/gmailmcp/GmailMcpServer.java`
    - `pom.xml`
    - `src/main/resources/credentials.json` (from Google Cloud)
    - `src/main/resources/logback.xml`
@@ -51,7 +51,7 @@ A Java-based Model Context Protocol (MCP) server that integrates with Gmail to e
    ├── src/
    │   ├── main/
    │   │   ├── java/
-   │   │   │   └── com/example/gmailmcp/
+   │   │   │   └── com/swiftbeard/gmailmcp/
    │   │   │       └── GmailMcpServer.java
    │   │   ├── resources/
    │   │   │   ├── credentials.json
